@@ -22,8 +22,6 @@
 
 [1.2]: http://www.twitter.com/marielsmusings
 [6.2]: http://www.github.com/marielfrank
-
-<!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
     
 **Curriulum Developer:** Mariel Frank (mariel@codecademy.com) [![alt text][1]][1.2] [![alt text][6]][6.2]
 
@@ -117,10 +115,16 @@ $ ./hello
 
 - [ ] `tokyo.cpp`
 - [ ] `whale.cpp`
+
+**Whale Talk**
+
 - [ ] `bleep.cpp`
-- [ ] `ufo.cpp`
 
 ## 6. Functions ##
+
+**UFO**
+
+- [ ] `ufo.cpp`
 
 ## 7. OOP ##
 
@@ -128,19 +132,19 @@ $ ./hello
 
 ### Terminal Game Challenge 2019 ###
 
-* Coming soon!
+* TBA
 
 ### Codecademy C++ Style Guide ###
 
-* Coming soon!
+* TBA
 
 ### Codecademy C++ Cheatsheets ###
 
-* Coming soon!
+* TBA
 
 ### Hall of Fame ###
 
-* You?
+* TBA
 
 <br>
 
