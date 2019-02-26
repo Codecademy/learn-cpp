@@ -15,18 +15,15 @@
 [5]: http://i.imgur.com/Vvy3Kru.png (dribbble icon without padding)
 [6]: http://i.imgur.com/9I6NRUm.png (github icon without padding)
 
-
-<!-- links to your social media accounts -->
-<!-- update these accordingly -->
+<!-- links to social media accounts -->
 
 [1.1]: http://www.twitter.com/sonnynomnom
 [6.1]: http://www.github.com/sonnynomnom
 
-[1.2]: http://www.twitter.com/marielfrank
+[1.2]: http://www.twitter.com/marielsmusings
 [6.2]: http://www.github.com/marielfrank
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
-    
     
 **Curriulum Developer:** Mariel Frank (mariel@codecademy.com) [![alt text][1]][1.2] [![alt text][6]][6.2]
 
