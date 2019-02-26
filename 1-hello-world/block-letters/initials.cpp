@@ -3,8 +3,7 @@
 
 #include <iostream>
 
-int main()
-{
+int main() {
   
   std::cout << "  SSS   L     \n";
   std::cout << " S   S  L     \n";
