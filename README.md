@@ -130,21 +130,21 @@ $ ./hello
 
 ## 8. Pointers ##
 
-### Terminal Game Challenge 2019 ###
+## Terminal Game Challenge 2019 ##
 
 * TBA
 
-### C++ Style Guides ###
+## C++ Style Guides ##
 
 * Codecademy C++ Style Guide
 * [Microsoft C++ Style Guide](https://github.com/Microsoft/AirSim/blob/master/docs/coding_guidelines.md)
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 
-### C++ Cheatsheets ###
+## C++ Cheatsheets ##
 
 * TBA
 
-### Hall of Fame ###
+## Hall of Fame ##
 
 * TBA
 
