@@ -132,7 +132,6 @@ $ ./hello
 
 - [ ] `pointers.cpp`
 
----
 
 ### Terminal Game Challenge 2019 ###
 
