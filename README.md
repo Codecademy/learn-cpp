@@ -1,6 +1,6 @@
 # Learn C++
 
-<a href="https://www.codecademy.com" target="_blank"><img src="https://github.com/sonnynomnom/codecademy-learn-c-plus-plus/blob/master/logo.png" width=200;></a>
+<a href="https://www.codecademy.com" target="_blank"><img src="https://github.com/Codecademy/learn-cpp/blob/master/logo2.png" width=200;></a>
 
 **Curriulum Developer:** Sonny Li (sonny@codecademy.com) [![alt text][1]][1.1] [![alt text][6]][6.1]
 
