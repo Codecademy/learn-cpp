@@ -134,11 +134,13 @@ $ ./hello
 
 * TBA
 
-### Codecademy C++ Style Guide ###
+### C++ Style Guides ###
 
-* TBA
+* Codecademy C++ Style Guide
+* [Microsoft C++ Style Guide](https://github.com/Microsoft/AirSim/blob/master/docs/coding_guidelines.md)
+* [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 
-### Codecademy C++ Cheatsheets ###
+### C++ Cheatsheets ###
 
 * TBA
 
