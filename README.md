@@ -114,10 +114,11 @@ $ ./hello
 ## 5. Vectors ##
 
 - [ ] `tokyo.cpp`
-- [ ] `whale.cpp`
+- [x] [`oddeven.cpp`](5-vectors/oddeven.cpp)
 
 **Whale Talk**
 
+- [ ] `whale.cpp`
 - [ ] `bleep.cpp`
 
 ## 6. Functions ##
