@@ -4,7 +4,6 @@
 #include <iostream>
 
 int main() {
-
   std::cout << "  __________________               \n";
   std::cout << " | |______________| |              \n";
   std::cout << " | |              | |              \n";
@@ -22,5 +21,4 @@ int main() {
   std::cout << " |__________________|  ==========  \n";
 
   return 0;
-
 }
