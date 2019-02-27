@@ -1,13 +1,12 @@
-#include <iostream>
 #include <stdlib.h>
+#include <iostream>
 
 int main() {
-
   srand(time(NULL));
 
   int computer = rand() % 3 + 1;
 
-  int user;
+  int user = 0;
 
   std::cout << "====================\n";
   std::cout << "rock paper scissors!\n";
@@ -21,78 +20,46 @@ int main() {
 
   std::cin >> user;
 
-  if (user == 1)
+  if (user == 1) {
     std::cout << "you choose: ✊\n";
-  else if (user == 2)
+  } else if (user == 2) {
     std::cout << "you choose: ✋\n";
-  else
+  } else {
     std::cout << "you choose: ✌️\n";
+  }
 
-  if (computer == 1)
+  if (computer == 1) {
     std::cout << "cpu choose: ✊\n";
-  else if (computer == 2)
+  } else if (computer == 2) {
     std::cout << "cpu choose: ✋\n";
-  else
+  } else {
     std::cout << "cpu choose: ✌️\n";
-
+  }
 
   if (user == computer) {
-
     std::cout << "it's a tie!\n";
-
-  }
-
-  // user rock
-
-  else if (user == 1) {
-
+  } else if (user == 1) {  // user rock
     if (computer == 2) {
-
       std::cout << "you lost! booooo!\n";
-
     }
     if (computer == 3) {
-
       std::cout << "you won! woohoo!\n";
-
     }
-
-  }
-
-  // user paper
-
-  else if (user == 2) {
-
+  } else if (user == 2) {  // user paper
     if (computer == 1) {
-
       std::cout << "you won! woohoo!\n";
-
     }
     if (computer == 3) {
-
       std::cout << "you lost! boo!\n";
-
     }
-
-  }
-
-  // user scissors
-
-  else if (user == 3) {
-
+  } else if (user == 3) {  // user scissors
     if (computer == 1) {
-
       std::cout << "you won! woohoo!\n";
-
     }
     if (computer == 2) {
-
       std::cout << "you lost! booooo!\n";
-
     }
-
   }
 
   return 0;
-
 }

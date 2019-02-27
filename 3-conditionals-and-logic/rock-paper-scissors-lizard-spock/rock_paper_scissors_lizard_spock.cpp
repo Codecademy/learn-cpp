@@ -14,7 +14,7 @@ int main() {
   srand (time(NULL));
   int computer = rand() % 5 + 1;
 
-  int user;
+  int user = 0;
 
   std::cout << "1) Rock\n";
   std::cout << "2) Paper\n";

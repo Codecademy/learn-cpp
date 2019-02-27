@@ -1,13 +1,15 @@
 #include <iostream>
 
 int main() {
-
   int gryffindor = 0;
   int hufflepuff = 0;
   int ravenclaw = 0;
   int slytherin = 0;
 
-  int answer1, answer2, answer3, answer4;
+  int answer1 = 0;
+  int answer2 = 0;
+  int answer3 = 0;
+  int answer4 = 0;
 
   std::cout << "===============\n";
   std::cout << "The Sorting Hat\n";
@@ -25,14 +27,15 @@ int main() {
   std::cout << "Enter your answer (1-4): ";
   std::cin >> answer1;
 
-  if (answer1 == 1)
+  if (answer1 == 1) {
     hufflepuff++;
-  else if (answer1 == 2)
+  } else if (answer1 == 2) {
     slytherin++;
-  else if (answer1 == 3)
+  } else if (answer1 == 3) {
     ravenclaw++;
-  else if (answer1 == 4)
+  } else if (answer1 == 4) {
     gryffindor++;
+  }
 
   // ~~~~~~~~~~ Question 2 ~~~~~~~~~~
 
@@ -44,25 +47,14 @@ int main() {
   std::cout << "Enter your answer (1-2): ";
   std::cin >> answer2;
 
-  if (answer2 == 1)
-  {
-
+  if (answer2 == 1) {
     gryffindor++;
     ravenclaw++;
-
-  }
-  else if (answer2 == 2)
-  {
-
+  } else if (answer2 == 2) {
     hufflepuff++;
     slytherin++;
-
-  }
-  else
-  {
-
+  } else {
     std::cout << "Invalid input\n";
-
   }
 
   // ~~~~~~~~~~ Question 3 ~~~~~~~~~~
@@ -77,14 +69,15 @@ int main() {
   std::cout << "Enter your answer (1-4): ";
   std::cin >> answer3;
 
-  if (answer3 == 1)
+  if (answer3 == 1) {
     slytherin++;
-  else if (answer3 == 2)
+  } else if (answer3 == 2) {
     hufflepuff++;
-  else if (answer3 == 3)
+  } else if (answer3 == 3) {
     ravenclaw++;
-  else if (answer3 == 4)
+  } else if (answer3 == 4) {
     gryffindor++;
+  }
 
   // ~~~~~~~~~~ Question 4 ~~~~~~~~~~
 
@@ -98,14 +91,15 @@ int main() {
   std::cout << "Enter your answer (1-4): ";
   std::cin >> answer4;
 
-  if (answer4 == 1)
+  if (answer4 == 1) {
     hufflepuff++;
-  else if (answer4 == 2)
+  } else if (answer4 == 2) {
     slytherin++;
-  else if (answer4 == 3)
+  } else if (answer4 == 3) {
     gryffindor++;
-  else if (answer4 == 4)
+  } else if (answer4 == 4) {
     ravenclaw++;
+  }
 
   // ========== Sorting ==========
 
@@ -114,40 +108,27 @@ int main() {
   int max = 0;
   std::string house;
 
-  if (gryffindor > max)
-  {
-
+  if (gryffindor > max) {
     max = gryffindor;
     house = "Gryffindor";
-
   }
 
-  if (hufflepuff > max)
-  {
-
+  if (hufflepuff > max) {
     max = hufflepuff;
     house = "Hufflepuff";
-
   }
 
-  if (ravenclaw > max)
-  {
-
+  if (ravenclaw > max) {
     max = ravenclaw;
     house = "Ravenclaw";
-
   }
 
-  if (slytherin > max)
-  {
-
+  if (slytherin > max) {
     max = slytherin;
     house = "Slytherin";
-
   }
 
   std::cout << house << "!\n";
 
   return 0;
-
 }
