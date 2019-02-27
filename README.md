@@ -1,9 +1,8 @@
 # Learn C++
 
+<a href="https://www.codecademy.com" target="_blank"><img src="https://github.com/Codecademy/learn-cpp/blob/master/logo.png" align="right" width=170;></a>
+
 [![](https://img.shields.io/badge/language-English-blue.svg)](./README.md) 
-
-
-<a href="https://www.codecademy.com" target="_blank"><img src="https://github.com/Codecademy/learn-cpp/blob/master/logo.png" width=170;></a>
 
 **Curriulum Developer:** Sonny Li (sonny@codecademy.com) [![alt text][1]][1.1] [![alt text][6]][6.1]
 
