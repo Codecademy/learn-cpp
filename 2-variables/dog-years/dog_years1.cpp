@@ -3,19 +3,17 @@
 
 #include <iostream>
 
-int main()
-{
+int main() {
+  const int dog_age = 3;
 
-  int dog_age = 3;
+  const int early_years = 21;
 
-  int early_years, later_years, human_years;
+  const int later_years = (dog_age - 2) * 4;
 
-  early_years = 21;
+  const int human_years = early_years + later_years;
 
-  later_years = (dog_age - 2) * 4;
+  std::cout << "My name is Sparkles! Ruff Ruff, I am " << human_years
+            << " years old in human years.\n";
 
-  human_years = early_years + later_years;
-
-  std::cout << "My name is Sparkles! Ruff Ruff, I am " << human_years << " years old in human years.\n";
-
+  return 0;
 }
