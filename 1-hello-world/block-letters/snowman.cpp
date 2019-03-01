@@ -1,8 +1,10 @@
 // Fun Fact: I drink a looot of water.
+// Twitter: @anne_melody
 
 #include <iostream>
 
 int main() {
+
   std::cout << "    *                   *        \n";
   std::cout << "*        *                       \n";
   std::cout << " *                *            * \n";
@@ -25,4 +27,5 @@ int main() {
   std::cout << "           *   *   *             \n";
 
   return 0;
+
 }
