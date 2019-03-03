@@ -1,6 +1,6 @@
-# Learn C++
+# C++ Community Challenge Project Ideas
 
-<a href="https://www.codecademy.com" target="_blank"><img src="https://github.com/Codecademy/learn-cpp/blob/master/logo.png" align="right" width=170;></a>
+<img src="https://github.com/Codecademy/learn-cpp/blob/master/community-challenge/prizes.png" width=170;>
 
 <!-- [![](https://img.shields.io/badge/language-English-blue.svg)](./README.md) -->
 
@@ -157,6 +157,3 @@ $ ./hello
 <br>
 
 <img src="https://github.com/sonnynomnom/Introduction-to-Programming-in-C/blob/master/Projects/blackjack.png" alt="Black Jack" />
-
-## License
-Codecademy © [Songqiao Li](https://www.sonnyli.co)
