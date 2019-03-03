@@ -6,9 +6,7 @@
 
 “What are your interests and hobbies?”
 
-Programs are tools, not solutions (despite what software vendors tell you).
-
-If you talk to friends and family about things that bug them or problems that they encounter during their day, you might have better luck finding a project than if you frame it as a "programming" question.
+Talk to friends and family about things that bug them or problems that they encounter during their day!
 
 **Terminal Programs:**
 
