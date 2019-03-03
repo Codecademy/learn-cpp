@@ -2,12 +2,6 @@
 
 ## Project Ideas ##
 
-“What problems need to be solved?”
-
-“What are your interests and hobbies?”
-
-Talk to friends and family about things that bug them or problems that they encounter during their day!
-
 **Terminal Programs:**
 
 - NYC MetroCard Calculator
