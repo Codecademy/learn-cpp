@@ -14,7 +14,7 @@ Terminal:
 - Text-Based Adventure
 - [Tarot Reading](https://en.wikipedia.org/wiki/Tarot)
 - Astrology
-- To-Do List App
+- To-Do List
 - Bank Management System
 
 Ambitious:
