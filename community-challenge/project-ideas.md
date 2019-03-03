@@ -29,7 +29,7 @@
 - [Tetris](https://en.wikipedia.org/wiki/Tetris)
 - [T-Rex Run!](https://elgoog.im/t-rex/)
 
-- An Arduino
+- If you are interested in hardware, try some beginner Arduino projects!
 
 **Example:**
 
