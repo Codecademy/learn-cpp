@@ -2,7 +2,7 @@
 
 ## Project Ideas ##
 
-Terminal:
+**Terminal:**
 
 - NYC MetroCard Calculator
 - [Tic-Tac-Toe](https://en.wikipedia.org/wiki/Tic-tac-toe)
@@ -17,7 +17,7 @@ Terminal:
 - To-Do List
 - Bank Management System
 
-Ambitious:
+**Ambitious:**
 
 - [Tron](https://en.wikipedia.org/wiki/Tron_(video_game))
 - [Pong](https://en.wikipedia.org/wiki/Pong)
@@ -30,6 +30,6 @@ Ambitious:
 
 <br>
 
-Example: 
+**Example:**
 
 <img src="https://github.com/sonnynomnom/Introduction-to-Programming-in-C/blob/master/Projects/blackjack.png" alt="Black Jack" />
