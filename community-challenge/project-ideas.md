@@ -1,4 +1,4 @@
-# C++ Community Challenge (March 2019)
+# C++ Community Challenge
 
 ## Project Ideas ##
 
