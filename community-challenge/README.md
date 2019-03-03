@@ -4,23 +4,20 @@
 
 ## Project Ideas ##
 
+- [Tic-Tac-Toe](https://en.wikipedia.org/wiki/Tic-tac-toe)
 - [Battleship](https://en.wikipedia.org/wiki/Battleship_(game))
-- Connect 4
+- [Connect Four](https://en.wikipedia.org/wiki/Connect_Four)
+- [Blackjack](https://en.wikipedia.org/wiki/Blackjack)
+- [Minesweeper](https://en.wikipedia.org/wiki/Microsoft_Minesweeper)
+- [Who Wants to Be a Millionaire](https://en.wikipedia.org/wiki/Who_Wants_to_Be_a_Millionaire%3F)
 
-- breakout
-- snake
-- blackjack
-- tic-tac-toe
-- battleship
-- connect 4
+- Breakout
+- Snake
 - some sort of text editor adventure game
 - matching
 - leap year
-- minesweeper
-- who wants to be a millionaire
 - tarot
 - some astrology app
-
 
 - tron
 - pong
