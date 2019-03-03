@@ -1,10 +1,8 @@
 # C++ Community Challenge Project Ideas
 
-<img src="https://github.com/Codecademy/learn-cpp/blob/master/community-challenge/prizes.png">
-
 ## Project Ideas ##
 
-Games:
+Terminal Games:
 
 - [Tic-Tac-Toe](https://en.wikipedia.org/wiki/Tic-tac-toe)
 - [Battleship](https://en.wikipedia.org/wiki/Battleship_(game))
@@ -21,7 +19,7 @@ Others:
 - To-Do List Terminal App
 - Bank Management System
 
-Ambitious:
+Ambitious Games:
 
 - [Tron](https://en.wikipedia.org/wiki/Tron_(video_game))
 - [Pong](https://en.wikipedia.org/wiki/Pong)
