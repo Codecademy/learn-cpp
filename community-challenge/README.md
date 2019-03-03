@@ -2,28 +2,35 @@
 
 <img src="https://github.com/Codecademy/learn-cpp/blob/master/community-challenge/prizes.png">
 
-<!-- [![](https://img.shields.io/badge/language-English-blue.svg)](./README.md) -->
+## Project Ideas ##
 
-**Curriulum Developer:** Sonny Li (sonny@codecademy.com) [![alt text][1]][1.1] [![alt text][6]][6.1]
+- [Battleship](https://en.wikipedia.org/wiki/Battleship_(game))
+- Connect 4
 
-<!-- links to social media icons -->
+- breakout
+- snake
+- blackjack
+- tic-tac-toe
+- battleship
+- connect 4
+- some sort of text editor adventure game
+- matching
+- leap year
+- minesweeper
+- who wants to be a millionaire
+- tarot
+- some astrology app
 
-<!-- icons without padding -->
 
-[1]: http://i.imgur.com/wWzX9uB.png (twitter icon without padding)
-[2]: http://i.imgur.com/fep1WsG.png (facebook icon without padding)
-[3]: http://i.imgur.com/VlgBKQ9.png (google plus icon without padding)
-[4]: http://i.imgur.com/jDRp47c.png (tumblr icon without padding)
-[5]: http://i.imgur.com/Vvy3Kru.png (dribbble icon without padding)
-[6]: http://i.imgur.com/9I6NRUm.png (github icon without padding)
+- tron
+- pong
+- space invaders
+- 2048
+- tetris
+- t-rex run
 
-<!-- links to social media accounts -->
 
-[1.1]: http://www.twitter.com/sonnynomnom
-[6.1]: http://www.github.com/sonnynomnom
 
-[1.2]: http://www.twitter.com/marielsmusings
-[6.2]: http://www.github.com/marielfrank
     
 **Curriulum Developer:** Mariel Frank (mariel@codecademy.com) [![alt text][1]][1.2] [![alt text][6]][6.2]
 
