@@ -1,6 +1,6 @@
 # C++ Community Challenge Project Ideas
 
-<img src="https://github.com/Codecademy/learn-cpp/blob/master/community-challenge/prizes.png" width=170;>
+<img src="https://github.com/Codecademy/learn-cpp/blob/master/community-challenge/prizes.png">
 
 <!-- [![](https://img.shields.io/badge/language-English-blue.svg)](./README.md) -->
 
