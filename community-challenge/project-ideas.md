@@ -2,7 +2,7 @@
 
 ## Project Ideas ##
 
-**Terminal:**
+**Terminal Programs:**
 
 - NYC MetroCard Calculator
 - [Tic-Tac-Toe](https://en.wikipedia.org/wiki/Tic-tac-toe)
@@ -17,7 +17,7 @@
 - To-Do List
 - Bank Management System
 
-**Ambitious:**
+**More Ambitious Ideas:**
 
 - [Tron](https://en.wikipedia.org/wiki/Tron_(video_game))
 - [Pong](https://en.wikipedia.org/wiki/Pong)
