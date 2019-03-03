@@ -2,7 +2,7 @@
 
 ## Project Ideas ##
 
-Terminal Games:
+Terminal:
 
 - [Tic-Tac-Toe](https://en.wikipedia.org/wiki/Tic-tac-toe)
 - [Battleship](https://en.wikipedia.org/wiki/Battleship_(game))
@@ -10,16 +10,14 @@ Terminal Games:
 - [Blackjack](https://en.wikipedia.org/wiki/Blackjack)
 - [Minesweeper](https://en.wikipedia.org/wiki/Microsoft_Minesweeper)
 - [Who Wants to Be a Millionaire](https://en.wikipedia.org/wiki/Who_Wants_to_Be_a_Millionaire%3F)
-
-Others:
-
+- NYC MetroCard Calculator App
 - Text-Based Adventure
-- Tarot
+- [Tarot Reading](https://en.wikipedia.org/wiki/Tarot)
 - Astrology
-- To-Do List Terminal App
+- To-Do List App
 - Bank Management System
 
-Ambitious Games:
+Ambitious:
 
 - [Tron](https://en.wikipedia.org/wiki/Tron_(video_game))
 - [Pong](https://en.wikipedia.org/wiki/Pong)
