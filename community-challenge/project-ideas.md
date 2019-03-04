@@ -13,7 +13,7 @@
 - [Who Wants to Be a Millionaire](https://en.wikipedia.org/wiki/Who_Wants_to_Be_a_Millionaire%3F)
 - Text-Based Adventure
 - [Tarot Reading](https://en.wikipedia.org/wiki/Tarot)
-- Astrology
+- Horoscope
 - To-Do List
 - Bank Management System
 - Hardware project with Arduino
