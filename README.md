@@ -136,9 +136,9 @@ $ ./hello
 - [ ] `pointers.cpp`
 
 
-### Terminal Game Challenge 2019 ###
+### C++ Community Challenge 2019 ###
 
-* TBA
+* https://www.codecademy.com/articles/c-plus-plus-community-challenge-free
 
 ### C++ Style Guides ###
 
