@@ -120,7 +120,7 @@ $ ./hello
 
 **Whale Talk**
 
-- [ ] `whale.cpp`
+- [ ] [`whale.cpp`](5-vectors/whale.cpp)
 - [ ] `bleep.cpp`
 
 ## 6. Functions ##
