@@ -1,5 +1,5 @@
 #include <iostream>
-#include <stdlib.h>
+#include <cstdlib>
 
 int main() {
 
@@ -7,7 +7,7 @@ int main() {
 
   srand(time(NULL));
 
-  int choice = rand() % 20;
+  int choice = std::rand() % 20;
 
   if (choice == 0) {
 
