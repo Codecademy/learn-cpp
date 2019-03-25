@@ -7,7 +7,7 @@ int main() {
 
   srand(time(NULL));
 
-  int choice = rand() % 10;
+  int choice = std::rand() % 10;
 
   switch(choice) {
     case 0:
