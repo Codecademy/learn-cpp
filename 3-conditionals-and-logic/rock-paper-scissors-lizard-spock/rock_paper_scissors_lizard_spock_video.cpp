@@ -3,13 +3,13 @@ This program will allow you to play RPSLS against the computer.
 */
 
 #include <iostream>
-#include <stdlib.h>
+#include <cstdlib>
 
 int main() {
 
-  srand (time(NULL));
-	int computer = rand() % 5 + 1;
-	int user = 0;
+  srand(time(NULL));
+  int computer = std::rand() % 5 + 1;
+  int user = 0;
   
   std::cout << "====================\n";
   std::cout << "rock paper scissors!\n";
@@ -32,44 +32,68 @@ int main() {
   std::cin >> user;
   
   /* 
-  	rock > scissors
-    scissors > paper
-    paper > rock
-    lizard > spock
-    spock > scissors
-    scissors > lizard
-    lizard > paper
-    paper > spock
-    spock > rock
-    rock > lizard
+  rock > scissors
+  scissors > paper
+  paper > rock
+  lizard > spock
+  spock > scissors
+  scissors > lizard
+  lizard > paper
+  paper > spock
+  spock > rock
+  rock > lizard
   */
   
   std::cout << "Computer: " << computer << "\n\n";
   
-  
-  if(user == rock && computer == scissors){
+  if (user == rock && computer == scissors) {
+      
     std::cout << "You Win!\n";
-  } else if(user == scissors && computer == paper){
+    
+  } else if (user == scissors && computer == paper) {
+    
     std::cout << "You Win!\n";
-  } else if(user == paper && computer == rock) {
+    
+  } else if (user == paper && computer == rock) {
+    
     std::cout << "You Win!\n";
-  } else if(user == lizard && computer == spock) {
+      
+  } else if (user == lizard && computer == spock) {
+      
     std::cout << "You Win!\n";
-  } else if(user == spock && computer == scissors) {
+      
+  } else if (user == spock && computer == scissors) {
+      
     std::cout << "You Win!\n";
-  } else if(user == scissors && computer == lizard) {
+      
+  } else if (user == scissors && computer == lizard) {
+      
     std::cout << "You Win!\n";
-  } else if(user == lizard && computer == paper) {
+      
+  } else if (user == lizard && computer == paper) {
+      
     std::cout << "You Win!\n";
-  } else if(user == paper && computer == spock) {
+      
+  } else if (user == paper && computer == spock) {
+      
     std::cout << "You Win!\n";
-  } else if(user == spock && computer == rock) {
+      
+  } else if (user == spock && computer == rock) {
+      
     std::cout << "You Win!\n";
-  } else if(user == rock && computer == lizard) {
+      
+  } else if (user == rock && computer == lizard) {
+      
     std::cout << "You Win!\n";
-  } else if (user == computer){
+      
+  } else if (user == computer) {
+      
     std::cout << "Tie!\n";
+      
   } else {
+      
     std::cout << "You Lose!\n";
+      
   }
+  
 }
