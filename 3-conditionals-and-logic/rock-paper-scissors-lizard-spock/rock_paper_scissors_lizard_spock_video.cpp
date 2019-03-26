@@ -11,17 +11,17 @@ int main() {
   int computer = std::rand() % 5 + 1;
   int user = 0;
   
-  std::cout << "====================\n";
-  std::cout << "rock paper scissors!\n";
-  std::cout << "====================\n";
+  std::cout << "=================================\n";
+  std::cout << "rock paper scissors lizard spock!\n";
+  std::cout << "=================================\n";
 
   std::cout << "1) ✊\n";
   std::cout << "2) ✋\n";
   std::cout << "3) ✌️\n";
   std::cout << "4) lizard\n";
-  std::cout << "5) spock\n";
+  std::cout << "5) spock\n\n";
 
-  std::cout << "shoot! ";
+  std::cout << "shoot: ";
   
   int rock = 1;
   int paper = 2;
@@ -44,7 +44,7 @@ int main() {
   rock > lizard
   */
   
-  std::cout << "Computer: " << computer << "\n\n";
+  std::cout << "computer: " << computer << "\n\n";
   
   if (user == rock && computer == scissors) {
       
