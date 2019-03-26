@@ -70,6 +70,7 @@ $ ./hello
 
 - [x] [`dog_years1.cpp`](2-variables/dog-years/dog_years1.cpp)
 - [x] [`dog_years2.cpp`](2-variables/dog-years/dog_years2.cpp)
+- [x] [`snoop_dog.cpp`](2-variables/dog-years/snoop_dog.cpp)
 
 **Quadratic Formula:**
 
