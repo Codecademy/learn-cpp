@@ -1,11 +1,11 @@
 #include <iostream>
-#include <stdlib.h>
+#include <cstdlib>
 
 int main() {
 
   srand(time(NULL));
 
-  int computer = rand() % 3 + 1;
+  int computer = std::rand() % 3 + 1;
 
   int user;
 
