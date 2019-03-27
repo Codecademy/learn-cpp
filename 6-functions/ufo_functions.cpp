@@ -1,19 +1,17 @@
 #include <iostream>
 #include <vector>
 
-void display(int misses);
+// Define functions
+void greet() {
 
-// Declare variables
-std::string codeword = "codecademy";
-std::string answer = "__________";
-int misses = 0;
-std::vector<char> incorrect;
-bool guess = false;
+  std::cout << "=============\n";
+  std::cout << "UFO: The Game\n";
+  std::cout << "=============\n";
+  std::cout << "Instructions: save your friend from alien abduction by guessing the letters in the codeword.\n";
 
-// Define take_turn()
-void take_turn() {
+}
 
-  display(misses);
+void display_status(std::vector<char> incorrect, std::string answer) {
 
   std::cout << "\nIncorrect Guesses:\n";
 
@@ -27,38 +25,23 @@ void take_turn() {
     std::cout << answer[i] << ' ';
   }
 
-  char letter;
-  std::cout << "\n\nPlease enter your guess: ";
-  std::cin >> letter;
+}
 
-  for (int i = 0; i < codeword.length(); i++) {
+void end_game(std::string answer, std::string codeword) {
 
-    if (letter == codeword[i]) {
+  if (answer == codeword) {
 
-      answer[i] = letter;
-      guess = true;
+    std::cout << "Hooray! You saved the person and earned a medal of honor!\n";
 
-    }
+  } else {
+
+    std::cout << "Oh no! The UFO just flew away with another person!\n";
 
   }
 
-    if (guess) {
-
-      std::cout << "\nCorrect!\n";
-
-    } else {
-
-      std::cout << "\nIncorrect! The tractor beam pulls the person in further.\n";
-      incorrect.push_back(letter);
-      misses++;
-
-    }
-
-  guess = false;
-
 }
 
-void display(int misses) {
+void display_misses(int misses) {
 
   if (misses == 0 || misses == 1) {
 
@@ -181,3 +164,4 @@ void display(int misses) {
   }
 
 }
+
