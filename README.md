@@ -160,5 +160,9 @@ $ ./hello
 
 <img src="https://github.com/sonnynomnom/Introduction-to-Programming-in-C/blob/master/Projects/blackjack.png" alt="Black Jack" />
 
-## License
-Codecademy © [Songqiao Li](https://www.sonnyli.co)
+## Contribution Guidelines
+
+We'd love to have you contribute! 
+
+Please note that this project is released with a [Contributor Covenant](https://www.contributor-covenant.org).
+By participating in this project you agree to abide by its terms.
