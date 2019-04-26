@@ -129,9 +129,11 @@ $ ./hello
 
 **UFO**
 
-- [ ] `ufo.cpp`
+- [ ] [UFO](6-functions)
 
-## 7. OOP ##
+## 7. Classes & Objects ##
+
+- [ ] The Object of Your Affection
 
 ## 8. Pointers ##
 
