@@ -133,7 +133,7 @@ $ ./hello
 
 ## 7. Classes & Objects ##
 
-- [ ] The Object of Your Affection
+- [ ] [The Object of Your Affection](7-classes-and-objects)
 
 ## 8. Pointers ##
 
