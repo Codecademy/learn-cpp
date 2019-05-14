@@ -145,7 +145,7 @@ $ ./hello
 
 ### C++ Community Challenge 2019 ###
 
-* https://www.codecademy.com/articles/c-plus-plus-community-challenge-free
+* https://dev.to/codecademy/c-community-challenge-3l8m
 
 ### C++ Style Guides ###
 
