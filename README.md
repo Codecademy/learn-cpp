@@ -140,8 +140,7 @@ $ ./hello
 
 **Bleep**
 
-- [x] [`bleep.cpp`](8-references-and-pointers/bleep/bleep.cpp)
-
+- [x] [`bleep.cpp`](8-references-and-pointers/bleep/bleep.cpp) [`functions.cpp`](8-references-and-pointers/bleep/functions.cpp) [`functions.hpp`](8-references-and-pointers/bleep/functions.hpp)
 
 ### C++ Community Challenge 2019 ###
 
