@@ -123,7 +123,6 @@ $ ./hello
 **Whale Talk**
 
 - [ ] [`whale.cpp`](5-vectors/whale.cpp)
-- [ ] `bleep.cpp`
 
 ## 6. Functions ##
 
@@ -138,6 +137,10 @@ $ ./hello
 ## 8. Pointers ##
 
 - [ ] `pointers.cpp`
+
+**Bleep**
+
+- [x] [`bleep.cpp`](8-references-and-pointers/bleep/bleep.cpp)
 
 
 ### C++ Community Challenge 2019 ###
