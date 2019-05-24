@@ -156,6 +156,10 @@ $ ./hello
 
 * TBA
 
+### Interviews ###
+
+* Talk C++: Interview with Simon Brand
+
 ### Hall of Fame ###
 
 * TBA
