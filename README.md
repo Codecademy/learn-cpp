@@ -41,7 +41,6 @@ https://www.codecademy.com/learn/learn-c-plus-plus
 
 [https://discord.gg/N95DFrT](https://discord.gg/N95DFrT)  
 
-
 ## 1. Hello World ##
 
 ```
@@ -132,7 +131,11 @@ $ ./hello
 
 ## 7. Classes & Objects ##
 
-- [ ] [The Object of Your Affection](7-classes-and-objects)
+- [ ] asdf
+
+**The Object of Your Affection**
+
+- [x] [The Object of Your Affection](7-classes-and-objects)
 
 ## 8. Pointers ##
 
