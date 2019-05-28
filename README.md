@@ -161,7 +161,7 @@ $ ./hello
 
 ### Interviews ###
 
-* [Talking C++: Interview with Simon Brand](https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma)
+* #1 [https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma](https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma)
 * TBD
 
 ### Hall of Fame ###
