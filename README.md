@@ -159,10 +159,10 @@ $ ./hello
 
 * TBA
 
-### Interviews ###
+### Talking C++ ###
 
-* **Talking C++ Ep. 1:** Simon Brand [https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma](https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma)
-* TBD
+1. **Interview with Simon Brand** [https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma](https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma)
+2. TBA
 
 ### Hall of Fame ###
 
