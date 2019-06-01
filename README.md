@@ -159,9 +159,9 @@ $ ./hello
 
 * TBA
 
-### Interviews ###
+### Talking C++: Interview Series ###
 
-* #1 [https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma](https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma)
+* **Ep. 1** Simon Brand, C++ Devleloper Advocate, Microsoft: [https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma](https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma)
 * TBD
 
 ### Hall of Fame ###
