@@ -161,7 +161,7 @@ $ ./hello
 
 ### Interviews ###
 
-* **Talking C++ Ep. 1** Simon Brand, C++ Devleloper Advocate, Microsoft: [https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma](https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma)
+* **Talking C++: Interview with Simon Brand** (Ep. 1) [https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma](https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma)
 * TBD
 
 ### Hall of Fame ###
