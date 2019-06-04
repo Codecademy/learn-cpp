@@ -100,6 +100,7 @@ $ ./hello
 
 - [x] [`RPS.cpp`](3-conditionals-and-logic/rock-paper-scissors-lizard-spock/RPS.cpp)
 - [x] [`RPSLS.cpp`](3-conditionals-and-logic/rock-paper-scissors-lizard-spock/RPSLS.cpp)
+- [x] [`RPSLS_if.cpp`](3-conditionals-and-logic/rock-paper-scissors-lizard-spock/RPSLS_if.cpp)
 - [x] [`RPSLS_switch.cpp`](3-conditionals-and-logic/rock-paper-scissors-lizard-spock/RPSLS_switch.cpp)
 
 ## 4. Loops ##
