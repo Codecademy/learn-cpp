@@ -122,17 +122,15 @@ $ ./hello
 
 **Whale Talk**
 
-- [ ] [`whale.cpp`](5-vectors/whale.cpp)
+- [x] [`whale.cpp`](5-vectors/whale.cpp)
 
 ## 6. Functions ##
 
 **UFO**
 
-- [ ] [UFO](6-functions)
+- [x] [UFO](6-functions)
 
 ## 7. Classes & Objects ##
-
-- [ ] asdf
 
 **The Object of Your Affection**
 
