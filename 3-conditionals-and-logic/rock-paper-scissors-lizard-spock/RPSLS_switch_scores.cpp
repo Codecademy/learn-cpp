@@ -1,7 +1,7 @@
 // Author: Ali Parandeh
-// Github: https://github.com/Ali-Parandeh/csharp-cpp-projects/tree/master/Rock%20Paper%20Scissors%20Lizard%20Spock
+// GitHub: https://github.com/Ali-Parandeh
 
-/* GAME LOGIC
+/* GAME LOGIC:
 
 Scissors cut Paper
 Paper covers Rock
@@ -27,10 +27,8 @@ struct Results {
 };
 
 // function declaration
-std::string TranslateChoice(int choice)
-{
-  switch(choice)
-  {
+std::string TranslateChoice(int choice) {
+  switch(choice) {
     case 1:
       return "✊";
       break;
@@ -47,26 +45,22 @@ std::string TranslateChoice(int choice)
       return "🖖";
       break;
     default:
-      break;  
+      break;
   }
 }
 
-void AnnounceResults(int user, int computer, std::string result)
-{
-    std::cout <<"You chose: " << TranslateChoice(user) << "\n";
-    std::cout <<"Computer chose: " << TranslateChoice(computer) << "\n";
-    std::cout <<"And the result is as follows: " << result << "\n";
+void AnnounceResults(int user, int computer, std::string result) {
+    std::cout << "\nYou chose: " << TranslateChoice(user) << "\n";
+    std::cout << "Computer chose: " << TranslateChoice(computer) << "\n";
+    std::cout << "And the result is as follows: " << result << "\n";
 }
 
-Results PlayWithComputer(int user, int computer, int user_score, int computer_score)
-{
-  if (user == computer)
-  {
-    return {user_score, computer_score,"It is a draw!"};
+Results PlayWithComputer(int user, int computer, int user_score, int computer_score) {
+  if (user == computer) {
+    return {user_score, computer_score, "It is a draw!"};
   }
     
-  switch (user)
-  {
+  switch (user) {
     case 1: // Rock
       if (computer == 3 || computer == 4) // Scissors & Lizard
       {
@@ -139,70 +133,79 @@ Results PlayWithComputer(int user, int computer, int user_score, int computer_sc
   }
 }
 
-
-
-Results StartGame(int user_score, int computer_score)
-{
+Results StartGame(int user_score, int computer_score) {
   srand (time(NULL));
   int user = 0, computer = rand() % 5 + 1;
   
-  std::cout << "Game Starting.\n";
+  std::cout << "\nGame Starting.\n";
   std::cout << "1) ✊\n"; // Rock
   std::cout << "2) ✋\n"; // Paper
   std::cout << "3) ✌️\n"; // Scissors
   std::cout << "4) 👌\n"; // Lizard
   std::cout << "5) 🖖\n"; // Spock
-  std::cout << "shoot! ";
+  std::cout << "Shoot! ";
   
   std::cin >> user;
-  if(user <=0)
-  {
+  
+  if(user <= 0) {
+
     return {user_score, computer_score, "0"};
+  
   }
+  
   auto results = PlayWithComputer(user, computer, user_score, computer_score);
   AnnounceResults(user, computer, results.result);
+  
   return results;
+
 }
 
-int main()
-{
+int main() {
+
   Results results;
   results.user_score = 0;
   results.computer_score = 0;
   int score_limit;
   
   std::cout << "=================================\n";
-  std::cout << "rock paper scissors Lizard Spock!\n";
-  std::cout << "=================================\n";
+  std::cout << "Rock Paper Scissors Lizard Spock!\n";
+  std::cout << "=================================\n\n";
   
-  std::cout << "Set a winning target.\n";
+  std::cout << "Set a winning target:\n";
   std::cin >> score_limit;
-  if(score_limit <= 0 )
-  {
+
+  if (score_limit <= 0 ) {
+
     std::cout << "INVALID INPUT. TRY AGAIN.\n";
     return 0;
+
   }
   
-  while (results.user_score != score_limit && results.computer_score != score_limit)
-  {
+  while (results.user_score != score_limit && results.computer_score != score_limit) {
+
     results = StartGame(results.user_score, results.computer_score);
-    if (results.result == "0")
-    {
+
+    if (results.result == "0") {
+
       std::cout << "INVALID INPUT. TRY AGAIN.\n";
       return 0;
+
     }
-    std::cout << "Great round! Here's the game status so far: \n";
-    std::cout << "Your wins: " << results.user_score << "   Computer Wins: " << results.computer_score << "\n";
+
+    std::cout << "\nGreat round! Here's the game status so far: \n";
+    std::cout << "Your wins: " << results.user_score << "   Computer wins: " << results.computer_score << "\n";
+  
   }
   
-  std::cout << "GAME OVER!\n";
-  if(results.user_score > results.computer_score)
-  {
+  std::cout << "\nGAME OVER.\n";
+
+  if (results.user_score > results.computer_score) {
     std::cout << "YOU WON!!! TO A COMPUTER - CONGRATULATIONS!\n";
   }
-  else
-  {
+  else {
     std::cout << "YOU LOST!!! TO A COMPUTER - GO CRY NOW!\n";
   }
+  
   return 0;
+
 }
