@@ -156,7 +156,7 @@ $ ./hello
 
 ### C++ Cheatsheets ###
 
-* TBA
+* Coming soon!
 
 ### Talking C++ ###
 
