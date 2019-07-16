@@ -86,7 +86,7 @@ $ ./hello
 - [x] [`pH.cpp`](3-conditionals-and-logic/pH.cpp)
 - [x] [`pokedex.cpp`](3-conditionals-and-logic/pokedex.cpp)
 - [x] [`space.cpp`](3-conditionals-and-logic/space.cpp)
-- [ ] `leapyear.cpp`
+- [x] [`leap_year.cpp`](3-conditionals-and-logic/leap_year.cpp)
 
 **Magic 8-Ball**
 
