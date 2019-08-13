@@ -37,10 +37,6 @@ https://www.codecademy.com/learn/learn-c-plus-plus
 
 [Programming Principles and Practice Using C++](https://www.amazon.com/Programming-Principles-Practice-Using-C/dp/0321543726#customerReviews) (Bjarne Stroustrup)
 
-### Discord ###
-
-[https://discord.gg/N95DFrT](https://discord.gg/N95DFrT)  
-
 ## 1. Hello World ##
 
 ```
