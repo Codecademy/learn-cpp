@@ -161,7 +161,7 @@ $ ./hello
 ### Talking C++ ###
 
 1. **Interview with Simon Brand** [https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma](https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma)
-2. TBA
+2. **Interview with Bjarne Stroustroup** (Coming soon!!!)
 
 ### Hall of Fame ###
 
