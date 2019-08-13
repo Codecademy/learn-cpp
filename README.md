@@ -154,9 +154,9 @@ $ ./hello
 * [Microsoft C++ Style Guide](https://github.com/Microsoft/AirSim/blob/master/docs/coding_guidelines.md)
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 
-### C++ Cheatsheets ###
+### Learn C++ Cheatsheets ###
 
-* Coming soon!
+* BETA coming in September 2019.
 
 ### Talking C++: Interview Series###
 
