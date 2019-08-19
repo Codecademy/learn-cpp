@@ -1,6 +1,9 @@
+// Fun fact: I am not very interesting.
+
 #include <iostream>
-//Fun fact, I am not very interesting
-int main(){
+
+int main() {
+
   std::cout << "DDDD   IIIII   GGG   IIIII  TTTTT  A    L     \n";
   std::cout << "D   D    I    G   G    I      T   A A   L     \n";
   std::cout << "D   D    I    G        I      T  A   A  L     \n";
@@ -39,4 +42,5 @@ int main(){
   std::cout << "               P      U   U  N   N  K K       \n";
   std::cout << "               P      U   U  N   N  K  K      \n";
   std::cout << "               P       UUU   N   N  K   K     \n";
+
 }
