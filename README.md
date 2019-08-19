@@ -91,14 +91,17 @@ $ ./hello
 - [x] [`leap_year.cpp`](3-conditionals-and-logic/leap_year.cpp)
 
 **Magic 8-Ball:**
+<img src="https://github.com/Codecademy/learn-cpp/blob/master/3-conditionals-and-logic/magic-8-ball/magic8ball.gif" align="right" width=250;>
 
 - [x] [`magic8.cpp`](3-conditionals-and-logic/magic-8-ball/magic8.cpp)
 
 **Harry Potter Sorting Hat:**
+<img src="https://github.com/Codecademy/learn-cpp/blob/master/3-conditionals-and-logic/harry-potter-sorting-hat/harrypotter.gif" align="right" width=250;>
 
 - [x] [`sortinghat.cpp`](3-conditionals-and-logic/harry-potter-sorting-hat/sortinghat.cpp)
 
 **Rock Paper Scissors Lizard Spock:**
+<img src="https://github.com/Codecademy/learn-cpp/blob/master/3-conditionals-and-logic/rock-paper-scissors-lizard-spock/RPSLS.gif" align="right" width=250;>
 
 - [x] [`RPS.cpp`](3-conditionals-and-logic/rock-paper-scissors-lizard-spock/RPS.cpp)
 - [x] [`RPSLS.cpp`](3-conditionals-and-logic/rock-paper-scissors-lizard-spock/RPSLS.cpp)
