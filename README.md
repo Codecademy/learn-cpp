@@ -51,8 +51,6 @@ $ ./hello
 
 **Block Letters:**
 
-<img src="https://github.com/Codecademy/learn-circuitpython/blob/master/circuit-playground-part-2/plant-care/plant-care.gif" align="right" width=250;>
-
 - [x] [`initials.cpp`](1-hello-world/block-letters/initials.cpp)  
 - [x] [`snowman.cpp`](1-hello-world/block-letters/snowman.cpp)
 - [x] [`codecademy.cpp`](1-hello-world/block-letters/codecademy.cpp)
@@ -64,6 +62,8 @@ $ ./hello
 - [x] [`bmi.cpp`](2-variables/bmi.cpp)
 
 **Dog Years:**
+
+<img src="https://github.com/Codecademy/learn-circuitpython/blob/master/circuit-playground-part-2/plant-care/plant-care.gif" align="right" width=250;>
 
 - [x] [`dog_years1.cpp`](2-variables/dog-years/dog_years1.cpp)
 - [x] [`dog_years2.cpp`](2-variables/dog-years/dog_years2.cpp)
