@@ -51,6 +51,8 @@ $ ./hello
 
 **Block Letters:**
 
+<img src="https://github.com/Codecademy/learn-circuitpython/blob/master/circuit-playground-part-2/plant-care/plant-care.gif" align="right" width=250;>
+
 - [x] [`initials.cpp`](1-hello-world/block-letters/initials.cpp)  
 - [x] [`snowman.cpp`](1-hello-world/block-letters/snowman.cpp)
 - [x] [`codecademy.cpp`](1-hello-world/block-letters/codecademy.cpp)
