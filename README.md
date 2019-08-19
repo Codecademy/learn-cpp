@@ -63,7 +63,6 @@ $ ./hello
 - [x] [`bmi.cpp`](2-variables/bmi.cpp)
 
 **Dog Years:**
-
 <img src="https://github.com/Codecademy/learn-cpp/blob/master/2-variables/dog-years/dog.gif" align="right" width=250;>
 
 - [x] [`dog_years1.cpp`](2-variables/dog-years/dog_years1.cpp)
@@ -71,13 +70,11 @@ $ ./hello
 - [x] [`snoop_dog.cpp`](2-variables/dog-years/snoop_dog.cpp)
 
 **Quadratic Formula:**
-
 <img src="https://github.com/Codecademy/learn-cpp/blob/master/2-variables/quadratic-formula/graph.gif" align="right" width=250;>
 
 - [x] [`quadratic.cpp`](2-variables/quadratic-formula/quadratic.cpp)
 
 **Piggy Bank:**
-
 <img src="https://github.com/Codecademy/learn-cpp/blob/master/2-variables/piggy-bank/piggy-bank.gif" align="right" width=250;>
 
 - [x] [`currency.cpp`](2-variables/piggy-bank/currency.cpp)
@@ -118,6 +115,7 @@ $ ./hello
 - [x] [`99bottles.cpp`](4-loops/99bottles.cpp)
 
 **Fizz Buzz:**
+<img src="https://github.com/Codecademy/learn-cpp/blob/master/4-loops/fizzbuzz/fizzbuzz.gif" align="right" width=250;>
 
 - [x]  [`fizzbuzz.cpp`](4-loops/fizzbuzz/fizzbuzz.cpp)
 
