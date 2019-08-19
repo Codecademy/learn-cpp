@@ -63,7 +63,7 @@ $ ./hello
 
 **Dog Years:**
 
-<img src="https://github.com/Codecademy/learn-cpp/blob/master/2-variables/dog-years/dog.gif" align="right" width=220;>
+<img src="https://github.com/Codecademy/learn-cpp/blob/master/2-variables/dog-years/dog.gif" align="right" width=250;>
 
 - [x] [`dog_years1.cpp`](2-variables/dog-years/dog_years1.cpp)
 - [x] [`dog_years2.cpp`](2-variables/dog-years/dog_years2.cpp)
@@ -71,13 +71,13 @@ $ ./hello
 
 **Quadratic Formula:**
 
-<img src="https://github.com/Codecademy/learn-cpp/blob/master/2-variables/quadratic-formula/graph.gif" align="right" width=220;>
+<img src="https://github.com/Codecademy/learn-cpp/blob/master/2-variables/quadratic-formula/graph.gif" align="right" width=250;>
 
 - [x] [`quadratic.cpp`](2-variables/quadratic-formula/quadratic.cpp)
 
 **Piggy Bank:**
 
-<img src="https://github.com/Codecademy/learn-cpp/blob/master/2-variables/piggy-bank/piggy-bank.gif" align="right" width=220;>
+<img src="https://github.com/Codecademy/learn-cpp/blob/master/2-variables/piggy-bank/piggy-bank.gif" align="right" width=250;>
 
 - [x] [`currency.cpp`](2-variables/piggy-bank/currency.cpp)
 
