@@ -1,4 +1,4 @@
-// Fun fact: I am not very interesting.
+// Fun Fact: I am not very interesting.
 
 #include <iostream>
 
