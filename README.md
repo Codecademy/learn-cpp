@@ -90,15 +90,15 @@ $ ./hello
 - [x] [`space.cpp`](3-conditionals-and-logic/space.cpp)
 - [x] [`leap_year.cpp`](3-conditionals-and-logic/leap_year.cpp)
 
-**Magic 8-Ball**
+**Magic 8-Ball:**
 
 - [x] [`magic8.cpp`](3-conditionals-and-logic/magic-8-ball/magic8.cpp)
 
-**Harry Potter Sorting Hat**
+**Harry Potter Sorting Hat:**
 
 - [x] [`sortinghat.cpp`](3-conditionals-and-logic/harry-potter-sorting-hat/sortinghat.cpp)
 
-**Rock Paper Scissors Lizard Spock**
+**Rock Paper Scissors Lizard Spock:**
 
 - [x] [`RPS.cpp`](3-conditionals-and-logic/rock-paper-scissors-lizard-spock/RPS.cpp)
 - [x] [`RPSLS.cpp`](3-conditionals-and-logic/rock-paper-scissors-lizard-spock/RPSLS.cpp)
@@ -113,7 +113,7 @@ $ ./hello
 - [x] [`troublemaker.cpp`](4-loops/troublemaker.cpp)
 - [x] [`99bottles.cpp`](4-loops/99bottles.cpp)
 
-**Fizz Buzz**
+**Fizz Buzz:**
 
 - [x]  [`fizzbuzz.cpp`](4-loops/fizzbuzz/fizzbuzz.cpp)
 
@@ -122,19 +122,19 @@ $ ./hello
 - [ ] `tokyo.cpp`
 - [x] [`oddeven.cpp`](5-vectors/oddeven.cpp)
 
-**Whale Talk**
+**Whale Talk:**
 
 - [x] [`whale.cpp`](5-vectors/whale.cpp)
 
 ## 6. Functions ##
 
-**UFO**
+**UFO:**
 
 - [x] [UFO](6-functions)
 
 ## 7. Classes & Objects ##
 
-**The Object of Your Affection**
+**The Object of Your Affection:**
 
 - [x] [The Object of Your Affection](7-classes-and-objects)
 
@@ -142,7 +142,7 @@ $ ./hello
 
 - [ ] `pointers.cpp`
 
-**Bleep**
+**Bleep:**
 
 - [x] [`bleep.cpp`](8-references-and-pointers/bleep/bleep.cpp) [`functions.cpp`](8-references-and-pointers/bleep/functions.cpp) [`functions.hpp`](8-references-and-pointers/bleep/functions.hpp)
 
