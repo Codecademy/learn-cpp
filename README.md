@@ -160,12 +160,13 @@ $ ./hello
 
 ### Learn C++ Cheatsheets ###
 
-* 1. [Hello World](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-hello-world/reference)
+1. [Hello World](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-hello-world/reference)
+2. [Variables](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-variables/reference)
 
 ### Talking C++ ###
 
 1. [Talking C++: Interview with Simon Brand](https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma)
-2. **Interview with Bjarne Stroustroup** (Coming soon!!!)
+2. [Talking C++: Interview with Bjarne Stroustroup](https://news.codecademy.com/bjarne-stroustrup-interview/)
 
 ### Hall of Fame ###
 
