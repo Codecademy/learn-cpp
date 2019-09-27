@@ -160,7 +160,7 @@ $ ./hello
 
 ### Learn C++ Cheatsheets ###
 
-* BETA coming in September 2019.
+* 1. [Hello World](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-hello-world/reference)
 
 ### Talking C++ ###
 
