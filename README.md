@@ -150,12 +150,16 @@ $ ./hello
 
 ---
 
-### Learn C++ Cheat Sheets (BETA) ###
+### Cheat Sheets (BETA) ###
 
-1. [Hello World Cheat Sheet](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-hello-world/reference)
-2. [Variables Cheat Sheet](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-variables/reference)
-3. [Conditionals & Logic Cheat Sheet](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-conditionals-and-logic/reference)
-4. [Loops Cheat Sheet](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-loops/reference)
+1. [Hello World](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-hello-world/reference)
+2. [Variables](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-variables/reference)
+3. [Conditionals & Logic](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-conditionals-and-logic/reference)
+4. [Loops](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-loops/reference)
+5. [Vectors](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-vectors/reference)
+6. [Functions](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-functions/reference)
+7. [Classes & Objects](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-classes-and-objects/reference)
+8. [References & Pointers](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-references-and-pointers/reference)
 
 ### Talking C++ ###
 
