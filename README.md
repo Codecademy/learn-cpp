@@ -148,6 +148,20 @@ $ ./hello
 
 - [x] [`bleep.cpp`](8-references-and-pointers/bleep/bleep.cpp) [`functions.cpp`](8-references-and-pointers/bleep/functions.cpp) [`functions.hpp`](8-references-and-pointers/bleep/functions.hpp)
 
+---
+
+### Learn C++ Cheat Sheets (BETA) ###
+
+1. [Hello World Cheat Sheet](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-hello-world/reference)
+2. [Variables Cheat Sheet](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-variables/reference)
+3. [Conditionals & Logic Cheat Sheet](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-conditionals-and-logic/reference)
+4. [Loops Cheat Sheet](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-loops/reference)
+
+### Talking C++ ###
+
+1. [Talking C++: Interview with Simon Brand](https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma)
+2. [Talking C++: Interview with Bjarne Stroustroup](https://news.codecademy.com/bjarne-stroustrup-interview/)
+
 ### C++ Community Challenge 2019 ###
 
 * https://dev.to/codecademy/c-community-challenge-3l8m
@@ -157,16 +171,6 @@ $ ./hello
 * Codecademy C++ Style Guide
 * [Microsoft C++ Style Guide](https://github.com/Microsoft/AirSim/blob/master/docs/coding_guidelines.md)
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
-
-### Learn C++ Cheatsheets ###
-
-1. [Hello World](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-hello-world/reference)
-2. [Variables](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-variables/reference)
-
-### Talking C++ ###
-
-1. [Talking C++: Interview with Simon Brand](https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma)
-2. [Talking C++: Interview with Bjarne Stroustroup](https://news.codecademy.com/bjarne-stroustrup-interview/)
 
 ### Hall of Fame ###
 
