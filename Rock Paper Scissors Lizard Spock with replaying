@@ -1,0 +1,187 @@
+/*The logic:
+Scissors cuts Paper.
+Paper covers Rock.
+Rock crushes Lizard.
+Lizard poisons Spock.
+Spock smashes Scissors.
+Scissors decapitate Lizard.
+Lizard eats Paper.
+Paper disproves Spock.
+Spock vaporizes Rock.
+(and as it always has) Rock crushes Scissors.
+*/
+
+#include <iostream>
+#include <time.h>
+
+
+
+int main()
+{
+	int answer = 1;
+
+	while (answer == 1)
+
+	{
+		srand(time(NULL));
+
+		int computer = rand() % 5 + 1;
+		bool right_choise = false;
+		int user = 0;
+
+
+		std::cout << "=================================\n";
+		std::cout << "Rock Paper Scissors Lizard Spock!\n";
+		std::cout << "=================================\n";
+
+		std::cout << "\nTime to choose: \n" << std::endl;
+
+		std::cout << "1) Rock\n";
+		std::cout << "2) Paper\n";
+		std::cout << "3) Scissors\n";
+		std::cout << "4) Lizard\n";
+		std::cout << "5) Spock\n";
+
+		std::cout << "\nshoot! \n" << std::endl;
+
+
+
+		//user pick
+
+		while (right_choise == false) {
+			std::cin >> user;
+			if (user == 1) {
+				right_choise = true;
+				std::cout << "\nYou chose Rock" << std::endl;
+				break;
+			}
+			else if (user == 2) {
+				right_choise = true;
+				std::cout << "\nYou chose Paper" << std::endl;
+				break;
+			}
+			else if (user == 3) {
+				right_choise = true;
+				std::cout << "\nYou chose Scissors" << std::endl;
+				break;
+			}
+			else if (user == 4) {
+				right_choise = true;
+				std::cout << "\nYou chose Lizard" << std::endl;
+				break;
+			}
+			else if (user == 5) {
+				right_choise = true;
+				std::cout << "\nYou chose Spock" << std::endl;
+				break;
+			}
+			else
+				right_choise = false;
+			std::cout << "\nTry again!!\n"<<std::endl;
+		}
+
+		//Computer pick
+
+		if (right_choise == true) {
+			if (computer == 1) {
+				std::cout << "Computer choose Rock" << std::endl;
+			}
+			else if (computer == 2) {
+				std::cout << "Computer choose Paper" << std::endl;
+			}
+			else if (computer ==3 ) {
+				std::cout << "Computer choose Scissors\n" << std::endl;
+			}
+			else if (computer ==4 ) {
+				std::cout << "Computer chose Lizard\n" << std::endl;
+			}
+			else {
+			std::cout << "Computer chose Spock\n" << std::endl;
+		}
+		}
+
+		//user rock
+
+		if (user == computer) { std::cout << "\nIt's a draw\n" << std::endl; }
+
+		else if (user == 1) {
+
+			if (computer == 2) { std::cout << "\nYou lost. bOOOO\nPaper covers Rock.\n" << std::endl; }
+
+			if (computer == 3) { std::cout << "\nYou won. congratz\nRock crushes Scissors.\n" << std::endl; }
+
+			if (computer == 4) { std::cout << "\nYou won. congratz\nRock crushes Lizard.\n" << std::endl; }
+
+			if (computer == 5) { std::cout << "\nYou lost. bOOOO\nSpock vaporizes Rock.\n" << std::endl; }
+
+		}
+
+		//user paper
+
+		else if (user == 2) {
+
+			if (computer == 3) { std::cout << "\nYou lost. bOOOO\nScissors cuts Paper.\n" << std::endl; }
+
+			if (computer == 1) { std::cout << "\nYou won. congratz\nRock crushes Scissors.\n" << std::endl; }
+
+			if (computer == 4) { std::cout << "\nYou lost. bOOOO\nLizard eats Paper.\n" << std::endl; }
+
+			if (computer == 5) { std::cout << "\nYou won. congratz\nPaper disproves Spock.\n" << std::endl; }
+
+		}
+
+		//user scisors
+
+		else if (user == 3) {
+
+			if (computer == 1) { std::cout << "\nYou lost. bOOOO\nRock crushes Scissors.\n" << std::endl; }
+
+			if (computer == 2) { std::cout << "\nYou won. congratz\nScissors cuts Paper.\n" << std::endl; }
+
+			if (computer == 5) { std::cout << "\nYou lost. bOOOO\nSpock smashes Scissors.\n" << std::endl; }
+
+			if (computer == 4) { std::cout << "\nYou won. congratz\nScissors decapitate Lizard.\n" << std::endl; }
+
+		}
+
+		//user lizard
+
+		else if (user == 4) {
+
+			if (computer == 1) { std::cout << "\nYou lost. bOOOO\nRock crushes Lizard.\n" << std::endl; }
+
+			if (computer == 2) { std::cout << "\nYou won. congratz\nLizard eats Paper.\n" << std::endl; }
+
+			if (computer == 3) { std::cout << "\nYou lost. bOOOO\nScissors decapitate Lizard.\n" << std::endl; }
+
+			if (computer == 5) { std::cout << "\nYou won. congratz\nLizard poisons Spock.\n" << std::endl; }
+
+		}
+
+		//user Spock
+
+		else if (user == 5) {
+
+			if (computer == 2) { std::cout << "\nYou lost. bOOOO\nPaper disproves Spock.\n" << std::endl; }
+
+			if (computer == 3) { std::cout << "\nYou won. congratz\nSpock smashes Scissors.\n" << std::endl; }
+
+			if (computer == 4) { std::cout << "\nYou lost. bOOOO\nLizard poisons Spock.\n" << std::endl; }
+
+			if (computer == 1) { std::cout << "\nYou won. congratz\nSpock vaporizes Rock.\n" << std::endl; }
+
+		}
+
+		//repeat
+
+		std::cout << "\nWanna play again? \n1)YES\n2)NOPE\n" << std::endl;
+
+		std::cin >> answer;
+
+		if (answer == 1) {
+			right_choise == false;
+			system("cls");
+		}
+
+		}
+	}
