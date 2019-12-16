@@ -4,7 +4,7 @@
 
 <!-- [![](https://img.shields.io/badge/language-English-blue.svg)](./README.md) -->
 
-**Curriulum Developer:** Sonny Li (sonny@codecademy.com) [![alt text][1]][1.1] [![alt text][6]][6.1]
+**Curriculum Developer:** Sonny Li (sonny@codecademy.com) [![alt text][1]][1.1] [![alt text][6]][6.1]
 
 <!-- links to social media icons -->
 
@@ -25,7 +25,7 @@
 [1.2]: http://www.twitter.com/marielsmusings
 [6.2]: http://www.github.com/marielfrank
     
-**Curriulum Developer:** Mariel Frank (mariel@codecademy.com) [![alt text][1]][1.2] [![alt text][6]][6.2]
+**Curriculum Developer:** Mariel Frank (mariel@codecademy.com) [![alt text][1]][1.2] [![alt text][6]][6.2]
 
 **Artwork:** Jared Langel
 
