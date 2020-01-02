@@ -1,0 +1,83 @@
+#include <iostream>
+#include <stdlib.h>
+
+int main() {
+  
+  
+  
+  //for the persons choice
+  int person;
+  
+  //the computers choice
+  srand(time(NULL));
+  int comp = std::rand() % 5;
+
+  //a warm welcome
+  std::cout << "welcome to Rock, Paper, Scissors, Lizard, Spock\n";
+  
+  //the rules
+  std::cout << "So, This game is like regular rock, paper, scissors, where rock beats scissors, which beats paper, which in turn beats rock\nThese same rules apply, but there are now two extra additions...\n...Lizard and Spock\n\n Lizard beats paper and Spock\n Both rock and scissors beat lizard\n\n Spock beats scissors and rock\n Both paper and lizard beat spock\n (Basicaly, Spock and Lizard are polar opposites)\n";
+
+
+  std::cout << "\nMake your choice, what do you chose\n";
+  std::cout << "\n 1) Rock \n 2) Paper \n 3) Scissors \n 4) Lizard \n 5) Spock\n";
+  std::cout << "Your Choice: ";
+  std::cin >> person;
+  std::cout << "\n";
+  
+  person --;
+  
+  if (person == 0) {
+    std::cout << "You chose Rock\n";
+  }
+  else if (person == 1) {
+    std::cout << "You chose Paper\n";
+  }
+  else if (person == 2) {
+    std::cout << "You chose Scissors\n";
+  }
+  else if (person == 3) {
+    std::cout << "You chose Lizard\n";
+  }
+  else if (person == 4) {
+    std::cout << "You chose Spock\n";
+  }
+  else {
+    std::cout << "Invalid Input\n";
+  }
+  
+  if (comp == 0) {
+    std::cout << "The computer chose Rock\n";
+  }
+  else if (comp == 1) {
+    std::cout << "The computer chose Paper\n";
+  }
+  else if (comp == 2) {
+    std::cout << "The computer chose Scissors\n";
+  }
+  else if (comp == 3) {
+    std::cout << "The computer chose Lizard\n";
+  }
+  else {
+    std::cout << "The computer chose Spock\n";
+  }c
+  
+  /////////////////////////////////////////////////////////////////////////////////////////////////The different part
+  if (person >= 5) {
+    std::cout << "You dirty cheater, you lose\n";
+  }
+  else if ((comp+4)%5 == person || (comp+2)%5 == person) {
+    std::cout << "Congratualtions, you won\n";
+  }
+  else if ((comp+3)%5 == person || (comp+1)%5 == person) {
+    std::cout << "HA HA Ha you lose!! :)\n";
+  }
+  else if (comp == person){
+    std::cout << "It's a tie\n";
+  }
+  else {
+    std::cout << "Congratualtions, you broke the machine\n";
+  }
+  
+  /////////////////////////////////////////////////////////////////////////////////////////////////The different part
+}
