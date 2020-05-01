@@ -17,5 +17,8 @@ int main() {
     std::cout << y << " falls on a leap year.\n";
     
   }
-  
+  else{
+  std::cout << y << " Does not fall on a leap year.\n";
+  }
+   
 }
