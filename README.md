@@ -150,7 +150,7 @@ $ ./hello
 
 ---
 
-### Cheat Sheets (BETA) ###
+### Cheatsheets ###
 
 1. [Hello World](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-hello-world/reference)
 2. [Variables](https://www.codecademy.com/learn/learn-c-plus-plus/modules/learn-cpp-variables/reference)
@@ -166,11 +166,11 @@ $ ./hello
 1. [Talking C++: Interview with Simon Brand](https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma)
 2. [Talking C++: Interview with Bjarne Stroustroup](https://news.codecademy.com/bjarne-stroustrup-interview/)
 
-### C++ Community Challenge 2019 ###
+### Community Challenge ###
 
 * https://dev.to/codecademy/c-community-challenge-3l8m
 
-### C++ Style Guides ###
+### Style Guides ###
 
 * Codecademy C++ Style Guide
 * [Microsoft C++ Style Guide](https://github.com/Microsoft/AirSim/blob/master/docs/coding_guidelines.md)
