@@ -1,0 +1,184 @@
+
+#include <iostream>
+
+int main()
+{
+    
+	int greffindor=0, hufflepuff=0, ravenclaw=0, slytherin=0;
+
+	int answer1, answer2, answer3, answer4;
+
+	bool correct_answer=false;
+
+	int max=0;
+
+	std::string house;
+
+
+	std::cout << "==================\n";
+	std::cout << "The Sorting Hat Quiz!\n" << std::endl;
+	std::cout << "==================\n";
+
+	
+	while(correct_answer = true)
+	{
+		std::cout << "\nQ1) When I'm dead, I want people to remember me as:\n" << std::endl << "   1)The Good\n   2)The Great\n   3)The Wise\n   4)The Bold\n";
+
+		std::cout << "Enter your answer:\n" << std::endl;
+
+		std::cin >> answer1;
+
+
+		if (answer1 == 1) {
+			hufflepuff++;
+			correct_answer = true;
+			break;
+		}
+		else if (answer1 == 2) {
+			slytherin++;
+			correct_answer = true;
+			break;
+		}
+		else if (answer1 == 3) {
+			ravenclaw++;
+			correct_answer = true;
+			break;
+		}
+		else if (answer1 == 4) {
+			greffindor++;
+			correct_answer = true;
+			break;
+		}
+		else {
+			std::cout << "Invalid input. Try agian!\n" << std::endl;
+			correct_answer = false;
+		}
+	} 
+	correct_answer = false;
+	while (correct_answer = true)
+	{
+		std::cout << "\nQ2) Dawn or Dusk?\n" << std::endl << "    1)Dawn\n    2)Dusk\n";
+
+		std::cout << "Enter your answer:\n" << std::endl;
+
+		std::cin >> answer2;
+
+		if (answer2 == 1) {
+			correct_answer = true;
+			hufflepuff++;
+			slytherin++;
+			break;
+		}
+		else if (answer2 == 2) {
+			correct_answer = true;
+			ravenclaw++;
+			greffindor++;
+			break;
+		}
+		else {
+			std::cout << "Invalid input. Try agian!\n" << std::endl;
+			correct_answer = false;
+		}
+	} 
+	correct_answer = false;
+	while (correct_answer = true)
+	{
+		std::cout << "\nQ3) Which kind of instrument most pleases your ear ?\n" << std::endl << "   1)The violin\n   2)The trumpet\n   3)The piano\n   4)The drum\n";
+
+		std::cout << "Enter your answer:\n" << std::endl;
+
+		std::cin >> answer3;
+
+		if (answer3 == 1) {
+			slytherin++;
+			correct_answer = true;
+			break;
+		}
+		else if (answer3 == 2) {
+			hufflepuff++;
+			correct_answer = true;
+			break;
+		}
+		else if (answer3 == 3) {
+			ravenclaw++;
+			correct_answer = true;
+			break;
+		}
+		else if (answer3 == 4) {
+			greffindor++;
+			correct_answer = true;
+			break;
+		}
+		else {
+			std::cout << "Invalid input. Try agian!\n" << std::endl;
+			correct_answer = false;
+		}
+	}
+	correct_answer = false;
+	while (correct_answer = true)
+	{
+		std::cout << "\nQ4) Which road tempts you most?\n" << std::endl << "   1)The wide, sunny grassy lane\n   2)The narrow, dark, lantern-lit alley\n   3)The twisting, leaf-strewn path through woods\n   4)The cobbled street lined (ancient buildings)\n";
+
+		std::cout << "Enter your answer:\n" << std::endl;
+
+		std::cin >> answer4;
+
+		if (answer4 == 1) {
+			hufflepuff++;
+			correct_answer = true;
+			break;
+		}
+		else if (answer4 == 2) {
+			slytherin++;
+			correct_answer = true;
+			break;
+		}
+		else if (answer4 == 3) {
+			greffindor++;
+			correct_answer = true;
+			break;
+		}
+		else if (answer4 == 4) {
+			ravenclaw++;
+			correct_answer = true;
+			break;
+		}
+		else {
+			std::cout << "Invalid input. Try agian!\n" << std::endl;
+			correct_answer = false;
+		}
+	}
+
+	std::cout << "\nCongrats on being sorted into... ";
+
+	if (greffindor > max) { 
+
+		max = greffindor; 
+		house = "Gryffindor";
+
+	}
+
+	if (hufflepuff > max) {
+
+		max = hufflepuff;
+		house = "Hufflepuff";
+
+	}
+
+	if (ravenclaw > max) {
+
+		max = ravenclaw;
+		house = "Ravenclaw";
+
+	}
+
+	if (slytherin > max) {
+
+		max = slytherin;
+		house = "Slytherin";
+
+	}
+
+	std::cout << house << std::endl;
+	
+}
