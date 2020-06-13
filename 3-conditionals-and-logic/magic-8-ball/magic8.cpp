@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cstdlib>
+//In visual studio code, for srand(time(NULL)) to work:
+#include <ctime>
 
 int main() {
 
