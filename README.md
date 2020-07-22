@@ -164,7 +164,7 @@ $ ./hello
 ### Talking C++ ###
 
 1. [Talking C++: Interview with Simon Brand](https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma)
-2. [Talking C++: Interview with Bjarne Stroustroup](https://news.codecademy.com/bjarne-stroustrup-interview/)
+2. [Talking C++: Interview with Bjarne Stroustrup](https://news.codecademy.com/bjarne-stroustrup-interview/)
 
 ### Community Challenge ###
 
