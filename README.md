@@ -121,7 +121,7 @@ $ ./hello
 
 ## 5. Vectors ##
 
-- [ ] `tokyo.cpp`
+- [x] `tokyo.cpp`
 - [x] [`oddeven.cpp`](5-vectors/oddeven.cpp)
 
 **Whale Talk:**
@@ -142,7 +142,7 @@ $ ./hello
 
 ## 8. References & Pointers ##
 
-- [ ] `pointers.cpp`
+- [x] `pointers.cpp`
 
 **Bleep:**
 
@@ -172,7 +172,7 @@ $ ./hello
 
 ### Style Guides ###
 
-* Codecademy C++ Style Guide
+* [Codecademy C++ Style Guide](https://github.com/Codecademy/learn-cpp)
 * [Microsoft C++ Style Guide](https://github.com/Microsoft/AirSim/blob/master/docs/coding_guidelines.md)
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 
