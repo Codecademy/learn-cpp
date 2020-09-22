@@ -1,8 +1,10 @@
 #include <string>
 #include "functions.hpp"
 
+using namespace std;
+
 // bleep function replaces the word (passed as value) passed in the text (passed as reference) with # (pound or hash) and returns the new replaced text
-std::string bleep(std::string word, std::string &text)
+string bleep(string word, string &text)
 {
   // iterating through the text to find the word
    for (int i = 0; i < text.size(); i++) {
