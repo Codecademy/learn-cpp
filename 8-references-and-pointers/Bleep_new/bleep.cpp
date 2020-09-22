@@ -45,6 +45,8 @@ Project walkthrough video coming soon!
 #include <string>
 #include "functions.hpp"
 
+using namespace std;
+
 int main()
 {
   // intializing word and text
@@ -52,7 +54,7 @@ int main()
   std::string text = "I like eating broccoli, broccoli is good for health, broccoli is eaten widely in Asia.";
 
 // calling bleep function with word and string, displaying replaced text
-std::cout<< bleep(word,text);
+cout<< bleep(word,text);
 
 return 0;
 }
