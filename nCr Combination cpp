@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+
+int fact(int n)
+{
+     long long int a=1;
+     for(int i=1;i<=n;i++)
+     {
+         a*=i;
+     }
+     return a;
+}
+int ncr(int n,int r)
+{
+    long long   int q=fact(n)/fact(n-r)/fact(r);
+    return q;
+}
+
+int main()
+{
+    cout<<"n and r Respectively"<<endl;
+    int n,r;
+    cin>>n>>r;
+    cout<<n<<"C"<<r<<" value is ";
+    cout<<ncr(n,r);
+}
