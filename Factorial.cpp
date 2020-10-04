@@ -1,9 +1,10 @@
-#inlcude<iostream>
+#include<iostream>
+using namespace std
 
 int main()
 {
 int n , fact =1 ;
-cout<<"Enter the number to find factorial of"
+cout<<"Enter the number to find factorial of";
 cin>> n ;
 
 
