@@ -1,6 +1,7 @@
 #include <vector>
 
-class Profile {
+class Profile
+{
 private:
   std::string name;
   int age;
@@ -8,10 +9,10 @@ private:
   std::string country;
   std::string pronouns;
   std::vector<std::string> hobbies;
-  
+  bool matched;
+
 public:
-  Profile(std::string new_name, int new_age, std::string new_city, std::string new_country, std::string new_pronouns = "they/them");
+  Profile(std::string new_name, int new_age, std::string new_city, std::string new_country, std::string new_pronouns = "they/them", bool matched = false);
   std::string view_profile();
   void add_hobby(std::string new_hobby);
-
 };
