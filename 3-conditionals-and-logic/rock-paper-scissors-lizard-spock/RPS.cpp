@@ -80,12 +80,12 @@ int main() {
 
   else if (user == 3) {
 
-    if (computer == 1) {
+    if (computer == 2) {
 
       std::cout << "you won! woohoo!\n";
 
     }
-    if (computer == 2) {
+    if (computer == 1) {
 
       std::cout << "you lost! booooo!\n";
 
