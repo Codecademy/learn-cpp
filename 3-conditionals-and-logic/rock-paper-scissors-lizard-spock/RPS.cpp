@@ -36,63 +36,16 @@ int main() {
     std::cout << "cpu choose: ✌️\n";
 
 
-  if (user == computer) {
-
-    std::cout << "it's a tie!\n";
-
+  if ((user - computer == 1) || (user - computer == -2)) {
+    std::cout << "YEAH!!! You won!" << std::endl;
   }
-
-  // user rock
-
-  else if (user == 1) {
-
-    if (computer == 2) {
-
-      std::cout << "you lost! booooo!\n";
-
-    }
-    if (computer == 3) {
-
-      std::cout << "you won! woohoo!\n";
-
-    }
-
+  else if ((user - computer == -1) || (user - computer == 2)) {
+    std::cout << "OH!!! Computer won!" << std::endl;
   }
-
-  // user paper
-
-  else if (user == 2) {
-
-    if (computer == 1) {
-
-      std::cout << "you won! woohoo!\n";
-
-    }
-    if (computer == 3) {
-
-      std::cout << "you lost! boo!\n";
-
-    }
-
+  else {
+    std::cout << "It's a tie!" << std::endl;
   }
-
-  // user scissors
-
-  else if (user == 3) {
-
-    if (computer == 1) {
-
-      std::cout << "you won! woohoo!\n";
-
-    }
-    if (computer == 2) {
-
-      std::cout << "you lost! booooo!\n";
-
-    }
-
-  }
-
+  
   return 0;
 
 }
