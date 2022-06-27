@@ -1,2 +1,2 @@
-void bleep(std::string word, std::string &text);
-void asterisk(std::string word, std::string &text, int i);
+// bleep function declaration
+void bleep(std::string &text, std::string word);
