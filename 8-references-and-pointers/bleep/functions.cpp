@@ -1,37 +1,23 @@
 #include <string>
 
-void asterisk(std::string word, std::string &text, int i) {
-  
-  for (int k = 0; k < word.size(); ++k) {
-  
-    text[i+k] = '*';
-      
-  }
-  
-}
+using namespace std;
 
-void bleep(std::string word, std::string &text) {
+void bleep(string &text, string word) {
+  
+  // main loop that will iterate through all the text 
+  for (int i = 0; i < text.length(); i++) {
     
-  for (int i = 0; i < text.size(); ++i) {
-        
-    int match = 0;
-        
-    for (int j = 0; j < word.size(); ++j) {
+    //uses sub string to check if the word broccoli shows up
+    string check = text.substr(i, word.length());
     
-      if (text[i+j] == word[j]) {
-        
-        ++match;
-          
-      }
-    
-    }
-        
-    if (match == word.size()) {
-            
-      asterisk(word, text, i);
-        
-    }
+    //sees if word is broccoli and replaces it with *
+    if (check == word) {
       
+      for (int n = 0; n < word.length(); n++) {
+        
+        text[i + n] = '*';
+        
+      }
+    }
   }
-    
 }
