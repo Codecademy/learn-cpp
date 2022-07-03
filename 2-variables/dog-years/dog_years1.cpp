@@ -1,21 +1,22 @@
-// Learn C++
-// Dog Years
-
 #include <iostream>
+//mathwiz
+int main() {
 
-int main()
-{
+std::string dog_name;
+int dog_age;
 
-  int dog_age = 3;
+int human_age;
 
-  int early_years, later_years, human_years;
+std::cout << "Enter your dogs name: ";
+std::cin >> dog_name;
 
-  early_years = 21;
+std::cout << "Enter your dogs age: ";
+std::cin >> dog_age;
 
-  later_years = (dog_age - 2) * 4;
+human_age = 21 + (dog_age*4);
 
-  human_years = early_years + later_years;
+std::cout << "My name is " << dog_name << " I am " << dog_age << " In dog years I am " << human_age << " in human years\n" ;
 
-  std::cout << "My name is Sparkles! Ruff Ruff, I am " << human_years << " years old in human years.\n";
 
+  
 }
