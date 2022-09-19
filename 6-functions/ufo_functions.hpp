@@ -1,4 +1,6 @@
 #include <vector>
+#include <iostream>
+//was a error whit the type in std::sring
 
 void display_misses(int misses);
 
