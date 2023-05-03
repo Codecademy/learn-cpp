@@ -1,0 +1,98 @@
+#include <iostream>
+#include <stdlib.h>
+
+using namespace std;
+/* 
+This program:
+
+Prompts the user to select either Rock, Paper, Scissors, Lizard, or Spock.
+
+Instructs the computer to randomly select either Rock, Paper, Scissors, Lizard, or Spock.
+
+Compares the user’s choice and the computer’s choice and determine the winner.
+
+Informs the user who the winner is.
+*/
+
+int main() {
+  srand (time(NULL));
+
+  int computer = rand() % 5 + 1;
+
+  int user = 0;
+
+  cout << "====================\n";
+  cout << "rock paper scissors!\n";
+  cout << "====================\n";
+
+  cout << "1) ✊🏾\n";
+  cout << "2) ✋🏾\n";
+  cout << "3) ✌🏾\n";
+  cout << "4) 🦎\n";
+  cout << "5) 🖖🏾\n";
+
+  cout << "shoot! ";
+  cin >> user;
+
+  cout << "You chose ";
+  switch (user) {
+    case 1:
+      cout << "rock";
+      break;
+    case 2:
+      cout << "paper";
+      break;
+    case 3:
+      cout << "scissors";
+      break;
+    case 4:
+      cout << "lizard";
+      break;
+    case 5:
+      cout << "spock";
+      break;
+    default:
+      cout << "invalid choice";
+      break;
+  }
+
+  cout << ".\n";
+
+  cout << "The computer chose ";
+  switch (computer) {
+    case 1:
+      cout << "rock";
+      break;
+    case 2:
+      cout << "paper";
+      break;
+    case 3:
+      cout << "scissors";
+      break;
+    case 4:
+      cout << "lizard";
+      break;
+    case 5:
+      cout << "spock";
+      break;
+  }
+
+  cout << ".\n";
+
+  if (user == computer) {
+  cout << "Tie game!\n";
+} else if (user == 1 && (computer == 3 || computer == 4)) {
+  cout << "You win!\n";
+} else if (user == 2 && (computer == 1 || computer == 5)) {
+  cout << "You win!\n";
+} else if (user == 3 && (computer == 2 || computer == 4)) {
+  cout << "You win!\n";
+} else if (user == 4 && (computer == 2 || computer == 5)) {
+  cout << "You win!\n";
+} else if (user == 5 && (computer == 1 || computer == 3)) {
+  cout << "You win!\n";
+} else {
+  cout << "Computer wins!\n";
+}
+
+}
