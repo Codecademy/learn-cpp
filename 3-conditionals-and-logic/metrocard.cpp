@@ -12,11 +12,11 @@ int main() {
     std::cout << "====================================================\n";
     std::cout << "\n";
 
-    std::cout << "The fare for a subway or local bus ride:       $2.75\n");
-    std::cout << "The fare for an express bus ride:              $6.50\n");
+    std::cout << "The fare for a subway or local bus ride:       $2.75\n";
+    std::cout << "The fare for an express bus ride:              $6.50\n";
     std::cout << "\n";
 
-    std::cout << "Do you live here or are you visiting? (Input L/V):");
+    std::cout << "Do you live here or are you visiting? (Input L/V):";
     std::cin >> living;
 
     if (living == 'L' || living == 'l') {
