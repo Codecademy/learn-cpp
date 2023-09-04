@@ -1,115 +1,55 @@
+/*
+C++ Program codecademy, magic8 balls, random fortune game 
+description :
+1. random fortune game each time from 0 - 9
+2. every declare a random number can print this output : 
+    1) It is certain. 
+    2) It is decidedly so.
+    3) Without a doubt.
+    4) Yes - definitely.
+    5) You may rely on it.
+    7) Ass I see it, yes. 
+    8) Most likely.
+    9) Outlook good.
+3. This program make an if else concepts
+*/
 #include <iostream>
+#include <string>
 #include <cstdlib>
 
-int main() {
+int main (){
+    std::cout << "=====================================\n";
+    std::cout << "Welcome to the program fortune game : \n";
+    std::cout << "Magic 8-BALL \n";
+    srand(time(NULL));
+    int answer_number = std::rand() % 10;
+    std::string answer;
 
-  std::cout << "MAGIC 🎱 SAYS: \n\n";
-
-  srand(time(NULL));
-
-  int choice = std::rand() % 20;
-
-  if (choice == 0) {
-
-    std::cout << "It is certain.\n";
-
-  }
-  else if (choice == 1) {
-
-    std::cout << "It is decidedly so.\n";
-
-  }
-  else if (choice == 2) {
-
-      std::cout << "Without a doubt.\n";
-
-  }
-  else if (choice == 3) {
-
-      std::cout << "Yes - definitely.\n";
-
-  }
-  else if (choice == 4) {
-
-      std::cout << "You may rely on it.\n";
-
-  }
-  else if (choice == 5) {
-
-      std::cout << "As I see it, yes.\n";
-
-  }
-  else if (choice == 6) {
-
-      std::cout << "Most likely.\n";
-
-  }
-  else if (choice == 7) {
-
-      std::cout << "Outlook good.\n";
-
-  }
-  else if (choice == 8) {
-
-      std::cout << "Yes.\n";
-
-  }
-  else if (choice == 9) {
-
-      std::cout << "Signs point to yes.\n";
-
-  }
-  else if (choice == 10) {
-
-      std::cout << "Reply hazy, try again.\n";
-
-  }
-  else if (choice == 11) {
-
-      std::cout << "Ask again later.\n";
-
-  }
-  else if (choice == 12) {
-
-      std::cout << "Better not tell you now.\n";
-
-  }
-  else if (choice == 13) {
-
-      std::cout << "Cannot predict now.\n";
-
-  }
-  else if (choice == 14) {
-
-      std::cout << "Concentrate and ask again.\n";
-
-  }
-  else if (choice == 15) {
-
-      std::cout << "Don't count on it.\n";
-
-  }
-  else if (choice == 16) {
-
-      std::cout << "My reply is no.\n";
-
-  }
-  else if (choice == 17) {
-
-      std::cout << "My sources say no.\n";
-
-  }
-  else if (choice == 18) {
-
-      std::cout << "Outlook not so good.\n";
-
-  }
-  else {
-
-      std::cout << "Very doubtful.\n";
-
-  }
-
-  return 0;
-
+    // Make a conditional to print based on random number
+    if (answer_number == 1){
+        answer = "It is certain.";
+    } else if (answer_number == 2){
+        answer = "It is decidedly so.";
+    } else if (answer_number == 3){
+        answer = "Without a doubt.";
+    } else if (answer_number == 4){
+        answer = "Yes - definitely.";
+    } else if (answer_number == 5){
+        answer = "You may rely on it.";
+    } else if (answer_number == 6){
+        answer = "As I see it, yes.";
+    } else if (answer_number == 7){
+        answer = "Most likely.";
+    } else if (answer_number == 8){
+        answer = "Outlook good.";
+    } else if (answer_number == 9){
+        answer = "Yes.";
+    } else {
+        answer = "Invalid number";
+    }
+    // Preview a answer random number 
+    std::cout << answer << "\n\n";
+    std::cout << "Thank You for your choice \n";
+    std::cout << "=====================================\n";
+    return 0;
 }
