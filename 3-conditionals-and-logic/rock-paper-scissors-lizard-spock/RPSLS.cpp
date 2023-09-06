@@ -1,99 +1,60 @@
 /*
-This program will allow you to play RPSLS against the computer.
+Rock, Paper, Scissors, Lizard, Spock Logic:
+
+- Scissors cuts Paper.
+- Paper covers Rock.
+- Rock crushes Lizard.
+- Lizard poisons Spock.
+- Spock smashes Scissors.
+- Scissors decapitate Lizard.
+- Lizard eats Paper.
+- Paper disproves Spock.
+- Spock vaporizes Rock.
+- Rock crushes Scissors.
 */
 
 #include <iostream>
-#include <cstdlib>
+#include <stdlib.h>
 
-int main() {
+int main(){
+  int computer = rand() % 5 + 1;
 
-  srand(time(NULL));
-  int computer = std::rand() % 5 + 1;
-  int user = 0;
-  
-  std::cout << "=================================\n";
-  std::cout << "rock paper scissors lizard spock!\n";
-  std::cout << "=================================\n";
+  int user;
 
-  std::cout << "1) ✊\n";
-  std::cout << "2) ✋\n";
-  std::cout << "3) ✌️\n";
-  std::cout << "4) lizard\n";
-  std::cout << "5) spock\n\n";
+  std::cout <<
+  "    ____             __      ____                           _____      _                          \n" <<
+  "   / __ \\____  _____/ /__   / __ \\____ _____  ___  _____   / ___/_____(_)_____________  __________\n" <<
+  "  / /_/ / __ \\/ ___/ //_/  / /_/ / __ `/ __ \\/ _ \\/ ___/   \\__ \\/ ___/ / ___/ ___/ __ \\/ ___/ ___/\n" <<
+  " / _, _/ /_/ / /__/ ,<    / ____/ /_/ / /_/ /  __/ /      ___/ / /__/ (__  |__  ) /_/ / /  (__  ) \n" <<
+  "/_/ |_|\\____/\\___/_/|_|  /_/    \\__,_/ .___/\\___/_/      /____/\\___/_/____/____/\\____/_/  /____/  \n" <<
+  "                                    /_/                                                           \n\n";
 
-  std::cout << "shoot: ";
-  
-  int rock = 1;
-  int paper = 2;
-  int scissors = 3;
-  int lizard = 4;
-  int spock = 5;
-  
+  std::cout <<
+  "1) 👊  Rock\n" <<
+  "2) ✋  Paper\n" <<
+  "3) ✌️  Scissors\n" <<
+  "4) 🦎  Lizard\n" <<
+  "5) 🖖  Spock\n" <<
+  "Shoot!\n";
+
   std::cin >> user;
-  
-  /* 
-  rock > scissors
-  scissors > paper
-  paper > rock
-  lizard > spock
-  spock > scissors
-  scissors > lizard
-  lizard > paper
-  paper > spock
-  spock > rock
-  rock > lizard
-  */
-  
-  std::cout << "computer: " << computer << "\n\n";
-  
-  if (user == rock && computer == scissors) {
-      
-    std::cout << "You Win!\n";
-    
-  } else if (user == scissors && computer == paper) {
-    
-    std::cout << "You Win!\n";
-    
-  } else if (user == paper && computer == rock) {
-    
-    std::cout << "You Win!\n";
-      
-  } else if (user == lizard && computer == spock) {
-      
-    std::cout << "You Win!\n";
-      
-  } else if (user == spock && computer == scissors) {
-      
-    std::cout << "You Win!\n";
-      
-  } else if (user == scissors && computer == lizard) {
-      
-    std::cout << "You Win!\n";
-      
-  } else if (user == lizard && computer == paper) {
-      
-    std::cout << "You Win!\n";
-      
-  } else if (user == paper && computer == spock) {
-      
-    std::cout << "You Win!\n";
-      
-  } else if (user == spock && computer == rock) {
-      
-    std::cout << "You Win!\n";
-      
-  } else if (user == rock && computer == lizard) {
-      
-    std::cout << "You Win!\n";
-      
-  } else if (user == computer) {
-      
-    std::cout << "Tie!\n";
-      
+
+  std::cout << '\n';
+
+  std::cout << "Computer chose: " << computer << '\n' <<
+  "You chose: " << user << '\n';
+
+  int who_won = (user - computer + 5) % 5;
+
+  if (who_won != 0){
+    if(who_won % 2 == 0){
+      std::cout << "You Win!";
+    } else {
+      std::cout << "You Lose!";
+    }
   } else {
-      
-    std::cout << "You Lose!\n";
-      
+    std::cout << "It's a Tie!";
   }
-  
+
+  std::cout << '\n';
 }
