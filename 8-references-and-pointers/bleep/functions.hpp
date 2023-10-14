@@ -1,2 +1,4 @@
-void bleep(std::string word, std::string &text);
-void asterisk(std::string word, std::string &text, int i);
+using namespace std;
+
+string bleep(string word,string &text);
+void asterisk(string &word, string &text, int i);

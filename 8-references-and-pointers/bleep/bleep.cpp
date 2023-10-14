@@ -1,22 +1,15 @@
 #include <iostream>
-#include <string>
-
 #include "functions.hpp"
 
-int main() {
-  
-  std::string word = "broccoli";
-  
-  std::string sentence = "I sometimes eat broccoli. The interesting thing about broccoli is that there are four interesting things about broccoli. Number One. Nobody knows how to spell it. Number Two. No matter how long you boil it, it's always cold by the time it reaches your plate. Number Three. It's green. #broccoli";
-  
-  bleep(word, sentence);
-  
-  for (int i = 0; i < sentence.size(); i++) {
-    
-    std::cout << sentence[i];
-    
-  }
-  
-  std::cout << "\n";
-  
+using namespace std;
+
+int main(){
+
+  string word = "broccoli";
+  string text = "I haven't had broccoli in a long time. I do miss broccoli sometimes. I should add broccoli to my groceries list. That's done. That way I'm sure to not forget to add broccoli to my basket, my broccoli basket, on my broccoli grocery trip. #broccoli";
+
+  bleep(word, text);
+  cout << text;
+
+  return 0;
 }
