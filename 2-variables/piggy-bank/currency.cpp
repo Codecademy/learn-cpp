@@ -1,25 +1,25 @@
 #include <iostream>
 
-int main()
-{
+int main() {
+  
+  // Declare and initialize variables for currency and conversions.
+  double p, r, s, d;
+  double p_to_d = .0575;
+  double r_to_d = .2028;
+  double s_to_d = .2682;
 
-  double p;
-  double q;
-  double c;
-
-  double dollars;
-
-  std::cout << "🇲🇽 Enter number of Pesos: ";
+  // Input prompts and capture.
+  std::cout << "Enter number of Columbian Pesos: ";
   std::cin >> p;
+  std::cout << "Enter number of Brazilian Reais: ";
+  std::cin >> r;
+  std::cout << "Enter number of Peruvian Soles: ";
+  std::cin >> s;
+  
+  // Calculate dollars.
+  d = (p*p_to_d) + (r*r_to_d) + (s*s_to_d);
 
-  std::cout << "🇬🇹 Enter number of Guatemalan Quetzals: ";
-  std::cin >> q;
-
-  std::cout << "🇸🇻 Enter number of Salvadoran Colons: ";
-  std::cin >> c;
-
-  dollars = 0.049 * p + 0.1305 * q + 0.1144 * c;
-
-  std::cout << "Total USD = $" << dollars << "\n";
+  // Output dollars.
+  std::cout << "US Dollars = $" << d << "\n";
 
 }
