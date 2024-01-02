@@ -1,37 +1,23 @@
 #include <string>
+#include "functions.hpp"
 
-void asterisk(std::string word, std::string &text, int i) {
-  
-  for (int k = 0; k < word.size(); ++k) {
-  
-    text[i+k] = '*';
-      
-  }
-  
-}
+std::string bleep(std::string &bword, std::string &btext) {
 
-void bleep(std::string word, std::string &text) {
-    
-  for (int i = 0; i < text.size(); ++i) {
-        
-    int match = 0;
-        
-    for (int j = 0; j < word.size(); ++j) {
-    
-      if (text[i+j] == word[j]) {
-        
-        ++match;
-          
-      }
-    
-    }
-        
-    if (match == word.size()) {
-            
-      asterisk(word, text, i);
-        
-    }
-      
+  std::string stars = "*";
+
+  while (stars.length() < bword.length()) {
+
+    stars += "*";
+
   }
-    
+
+  //loop through replacing "broccoli" until .find is greater than the length of btext
+  while (btext.find(bword) < btext.length()) {
+
+    btext = btext.replace(btext.find(bword), bword.length(), stars);
+
+  }
+
+  return btext;
+
 }
