@@ -1,0 +1,34 @@
+// My dog-years attempt, including a check for non existing dog and the possibilities of partial years.
+
+#include <iostream>
+
+int main() {
+    std::string dog_name;
+    double dog_age, later_years, human_years;
+
+    // first two years of dog's life == 21 human years
+    double early_years = 21;
+
+    //ask for age and name
+    std::cout << "What's the name of your dog?\n";
+    std::cin >> dog_name;
+    std::cout << "How old is your dog in normal years?\n";
+    std::cin >> dog_age;
+
+    if (dog_age <= 0) {
+        //Dog does not exist as he is 0 years old or younger.
+        std::cout << "Your dog does not exist yet. :/\n";
+    }
+    else if (dog_age < 2) {
+        // multiply one early year with the actual dog age
+        human_years = early_years / 2 * dog_age;
+        std::cout << "Woof! My name is " << dog_name << ", I am " << human_years << " years old in human years.\n";
+    }
+    else {
+        // subtract 2 early years and multiply by 4 to get the later years
+        later_years = (dog_age - 2) * 4;
+        // combine later and early years
+        human_years = early_years + later_years;
+        std::cout << "Woof! My name is " << dog_name << ", I am " << human_years << " years old in human years.\n";
+    };
+}
