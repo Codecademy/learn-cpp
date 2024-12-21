@@ -3,22 +3,28 @@
 int main()
 {
 
-  double p;
-  double q;
-  double c;
-
-  double dollars;
+  double pesos, reais, soles, dollars;
 
   std::cout << "🇲🇽 Enter number of Pesos: ";
-  std::cin >> p;
+  std::cin >> pesos;
 
   std::cout << "🇬🇹 Enter number of Guatemalan Quetzals: ";
-  std::cin >> q;
+  std::cin >> reais;
 
   std::cout << "🇸🇻 Enter number of Salvadoran Colons: ";
-  std::cin >> c;
+  std::cin >> soles;
 
-  dollars = 0.049 * p + 0.1305 * q + 0.1144 * c;
+  /*
+  1 Pesos = 0.050 usd
+  1 Reais = 0.16 usd 
+  1 Soles = 0.27 usd
+  */
+
+  double pesos_to_dollar = 0.050;
+  double reais_to_dollar = 0.16;
+  double soles_to_dollar = 0.27;
+
+  dollars = (pesos_to_dollar * pesos) + (reais_to_dollar * reais) + (soles_to_dollar * soles);
 
   std::cout << "Total USD = $" << dollars << "\n";
 
