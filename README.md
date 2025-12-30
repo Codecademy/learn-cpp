@@ -163,7 +163,7 @@ $ ./hello
 
 ### Talking C++ ###
 
-1. [Talking C++: Interview with Simon Brand](https://dev.to/codecademy/talking-c-interview-with-simon-brand-3gma)
+1. [Talking C++: Interview with Simon Brand](https://www.codecademy.com/resources/blog/simon-brand-c-plus-plus)
 2. [Talking C++: Interview with Bjarne Stroustroup](https://news.codecademy.com/bjarne-stroustrup-interview/)
 
 ### Community Challenge ###
