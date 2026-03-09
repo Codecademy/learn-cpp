@@ -1,37 +1,37 @@
+#include "profile.hpp"
+#include <string>
+#include <vector>
 #include <iostream>
 
-#include "profile.hpp"
+using namespace std;
 
-Profile::Profile(std::string new_name, int new_age, std::string new_city, std::string new_country, std::string new_pronouns)
-  : name(new_name), age(new_age), city(new_city), country(new_country), pronouns(new_pronouns) {
-
-  if (new_age >= 18) {
+Profile::Profile(string new_name, int new_age, string new_city, string new_country, string new_pronouns) {
+    name = new_name;
     age = new_age;
-  } else {
-    age = 0;
-  }
-
+    city = new_city;
+    country = new_country;
+    pronouns = new_pronouns;
 }
 
-std::string Profile::view_profile() {
+string Profile::view_profile() {
+    string profile_details = "Name: " + name;
+    profile_details += "\nAge: " + to_string(age);
+    profile_details += "\nCity: " + city;
+    profile_details += "\nCountry: " + country;
+    profile_details += "\nPronouns: " + pronouns;
+    profile_details += "\nHobbies: ";
+    for (int i = 0; i < hobbies.size(); i++) {
+        profile_details += hobbies[i];
+        if (i < hobbies.size() - 1) {
+            profile_details += ", ";
+        } else {
+            profile_details += ".\n";
+        }
+    }
 
-  std::string bio = "Name: " + name;
-  bio += "\nAge: " + std::to_string(age);
-  bio += "\nPronouns: " + pronouns;
-  std::string hobby_string = "Hobbies:\n";
-
-  for (std::string hobby : hobbies) {
-
-    hobby_string += " - " + hobby + "\n";
-
-  }
-
-  return bio + "\n" + hobby_string;
-
+    return profile_details;
 }
 
-void Profile::add_hobby(std::string new_hobby) {
-
-  hobbies.push_back(new_hobby);
-
+void Profile::new_hobby(string new_hobby) {
+    hobbies.push_back(new_hobby);
 }
